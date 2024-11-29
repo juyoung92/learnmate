@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.header {
+    background-color: $primary-color;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+    &-wrap {
+        max-width: 1400px;
+        height: 60px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-left {
+        display: flex;
+        align-items: center;
+    }
+
+    &-right {
+        display: flex;
+        align-items: center;
+    }
+
+    &-logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &-menu {
+        display: flex;
+        gap: 24px;
+        margin-left: 24px;
+
+        a {
+            text-decoration: none;
+            color: #333;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+
+    &-auth {
+        .login-btn {
+            height: 32px;
+            padding: 0 16px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            background: #fff;
+            color: #333;
+            cursor: pointer;
+
+            &:hover {
+                background: #f7f7f7;
+            }
+        }
+    }
+}
