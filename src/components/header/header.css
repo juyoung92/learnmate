@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.header-auth button {
+    margin-left: 10px;
+}

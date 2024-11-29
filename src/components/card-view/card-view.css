@@ -1,0 +1,15 @@
+.premium-teachers {
+    padding: 20px;
+}
+
+.teacher-list {
+    display: flex;
+    gap: 20px;
+}
+
+.teacher-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
